@@ -246,7 +246,7 @@ def preprocess_doc2vec_models(csv_file_list):
     accuracy_rf = metrics.accuracy_score(y_test, y_pred_rf)
     precision_rf = metrics.precision_score(y_test, y_pred_rf, average='weighted')
     recall_rf = metrics.recall_score(y_test, y_pred_rf, average='weighted')
-    title_rf = 'Random Forest Confusion Matrix using TFIDF'
+    title_rf = 'Random Forest Confusion Matrix using Doc2Vec'
     fig_name_rf = 'random_forest_doc2vec.png'
     print('Random Forest Results using Doc2Vec')
     confusion_matrix_heatmap(rf_matrix, accuracy_rf, precision_rf, recall_rf, title_rf, fig_name_rf)
