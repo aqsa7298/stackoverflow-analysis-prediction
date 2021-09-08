@@ -18,22 +18,20 @@ This dataset is available on Kaggle (link below) </br>
 * Python 3.9 or above
 * Anaconda 4.9 or above
 ## Installation and execution
-1. Clone the project in desired directory
-2. Open anaconda prompt and go to the project directory
+1. Clone the project in desired directory.
+2. Open anaconda prompt and go to the project directory.
 3. Inside project directory run following command: 
 </br>
-`conda env create --prefix ./myenv --file environment.yml`
+<b>`conda env create --prefix ./myenv --file environment.yml`</b>
 </br> 
 it will create virtual environment myenv with all the required libraries.
 </br>
 4. Activate myenv by typing following command:
 </br>
-`conda activate <complete path to project directory>\myenv` 
+<b>`conda activate <complete path to project directory>\myenv` </b>
 </br>
-5. Run `python main.py`
+5. Run <b>`python main.py`</b>
 </br>
 It will first perform exploratory analysis and then predictive analysis of data.
 </br>
 Note: Each figure will be saved in images folder during program execution.
-
-
