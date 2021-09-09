@@ -17,7 +17,6 @@ from xgboost import XGBClassifier
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from nltk import word_tokenize
 from nltk.corpus import stopwords
-
 from analysis import read_df
 
 # preprocess data of dataframe
