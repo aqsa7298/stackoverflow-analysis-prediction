@@ -18,12 +18,6 @@ from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from nltk import word_tokenize
 from nltk.corpus import stopwords
 
-# ---- in case of error like stopwords, punkt etc. not found then uncomment below lines to download those resources---
-# import nltk
-# nltk.download('stopwords')
-# nltk.download('punkt')
-# nltk.download('averaged_perceptron_tagger')
-
 from analysis import read_df
 
 # preprocess data of dataframe
